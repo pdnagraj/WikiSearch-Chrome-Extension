@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "wiki_search",
+    "version": "1.0",
+    "description": "a wiki extension!",
+    "icons": {
+        "128": "Images/icons128.png",
+        "48": "Images/icons48.png"
+    },
+    "action":{
+        "default_icon": "Images/icons128.png",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+      },
+    "host_permissions": [
+        "https://*/",
+        "http://*/"
+    ]
+}
