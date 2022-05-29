@@ -1,4 +1,4 @@
-#Wiki Search Summary Chrome Extension
+# Wiki Search Summary Chrome Extension
 
 This is a chrome extension where if a user inputs a keyword it will display an alert on the page of the first sentance of the search keyword.
 
