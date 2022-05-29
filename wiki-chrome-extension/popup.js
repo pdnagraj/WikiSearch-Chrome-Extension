@@ -1,5 +1,5 @@
 $(function(){
-    
+
     $('#keywordsubmit').click(function(){
 		var search_topic = $('#keyword').val();	
 		if (search_topic){
@@ -21,6 +21,5 @@ $(function(){
 					});
 		}
 		$('#keyword').val('');
-		
     });
 });
